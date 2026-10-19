@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Costco Tracker</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛒</text></svg>">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">🛒 <b>Costco</b> Tracker</div>
+    <nav id="nav">
+      <a href="#/">Dashboard</a>
+      <a href="#/calendar">Calendar</a>
+      <a href="#/products">Products</a>
+      <a href="#/categories">Categories</a>
+      <a href="#/receipts">Receipts</a>
+      <a href="#/returns">Returns</a>
+      <a href="#/ask">Ask AI</a>
+      <a href="#/import">Import</a>
+    </nav>
+    <label class="who">Showing
+      <select id="person"><option value="">Everyone</option></select>
+    </label>
+  </header>
+  <div id="ai-banner" class="banner hidden"></div>
+  <main id="app"></main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

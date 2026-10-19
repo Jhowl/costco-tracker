@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DB_PATH: /data/costco.db
+      TZ: ${TZ:-America/New_York}
+    user: "${APP_UID:-1000}:${APP_GID:-1000}"
+    volumes:
+      # the SQLite database lives here: back up this folder
+      - ./data:/data
+    ports:
+      - "${APP_PORT:-8096}:8000"

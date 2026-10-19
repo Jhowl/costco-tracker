@@ -1,0 +1,31 @@
+{"exported_at": "2026-10-14T12:00:00Z", "source": "costco.com", "receipts": [
+ {"transactionBarcode": "21134300501862310011", "transactionDateTime": "2026-06-01T10:15:00", "warehouseName": "UNION",
+  "transactionType": "Sales", "documentType": "WarehouseReceiptDetail", "subTotal": 1010.97, "taxes": 66.6, "total": 1077.57,
+  "membershipNumber": "111", "instantSavings": 3.0,
+  "itemArray": [
+   {"itemNumber": "1234567", "itemDescription01": "KS ORG EGGS 24CT", "unit": 1, "amount": 7.99, "itemUnitPriceAmount": 7.99},
+   {"itemNumber": "1712345", "itemDescription01": "LG 65\" OLED TV", "unit": 1, "amount": 999.99, "itemUnitPriceAmount": 999.99},
+   {"itemNumber": "345678", "itemDescription01": "/1234567", "unit": -1, "amount": -3.00, "itemUnitPriceAmount": 0},
+   {"itemNumber": "445566", "itemDescription01": "KS PPR TWL 12PK", "unit": 1, "amount": 22.99, "itemUnitPriceAmount": 22.99}
+  ]},
+ {"transactionBarcode": "21134300501862310022", "transactionDateTime": "2026-07-03T18:40:00", "warehouseName": "UNION",
+  "transactionType": "Sales", "subTotal": 16.98, "taxes": 0, "total": 16.98,
+  "itemArray": [
+   {"itemNumber": "1234567", "itemDescription01": "KS ORG EGGS 24CT", "unit": 2, "amount": 16.98, "itemUnitPriceAmount": 8.49}
+  ]},
+ {"transactionBarcode": "21134300501862310033", "transactionDateTime": "2026-07-10T09:00:00", "warehouseName": "UNION GAS",
+  "receiptType": "Gas Station", "transactionType": "Sales", "total": 45.12,
+  "itemArray": [
+   {"itemNumber": "800", "itemDescription01": "REGULAR", "unit": 1, "amount": 45.12, "itemUnitPriceAmount": 3.399, "fuelUnitQuantity": 13.274, "fuelGradeCode": "R"}
+  ]},
+ {"transactionBarcode": "21134300501862310044", "transactionDateTime": "2026-08-02T12:00:00", "warehouseName": "UNION",
+  "transactionType": "Refund", "total": -24.37, "taxes": -1.38, "subTotal": -22.99,
+  "itemArray": [
+   {"itemNumber": "445566", "itemDescription01": "KS PPR TWL 12PK", "unit": -1, "amount": -22.99, "itemUnitPriceAmount": 22.99}
+  ]},
+ {"transactionBarcode": "21134300501862310055", "transactionDateTime": "09/20/2026 14:05", "warehouseName": "EDISON",
+  "transactionType": "Sales", "total": 8.29,
+  "itemArray": [
+   {"itemNumber": "7654321", "itemDescription01": "KS ORGANIC EGGS 24 CT", "unit": 1, "amount": 8.29, "itemUnitPriceAmount": 8.29}
+  ]}
+]}
